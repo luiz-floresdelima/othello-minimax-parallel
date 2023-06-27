@@ -1,0 +1,15 @@
+@import "../../assets/css/variables.scss";
+
+.piece{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+
+    &-black{
+        background-color: $black;
+    }
+
+    &-white{
+        background-color: $white;
+    }
+}

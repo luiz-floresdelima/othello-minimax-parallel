@@ -1,0 +1,14 @@
+@import "../../assets/css/variables.scss";
+
+.cell{
+    background: $green;
+    width: 62px;
+    height: 62px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.highlight{
+    background: $green-high;
+}
